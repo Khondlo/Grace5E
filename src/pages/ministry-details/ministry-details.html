@@ -1,0 +1,23 @@
+<ion-header>
+
+  <ion-navbar color="myRed">
+    <ion-title>{{subitems.title}}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+
+  <img [src]="subitems.photo" (load)="subitems.loaded = true" [hidden]="!subitems.loaded" />
+  <img src="assets/img/512PlaceHolderDark.png" [hidden]="subitems.loaded">
+
+  <div padding>
+    
+  <h1>{{subitems.title}}</h1>
+      
+  <p class="text" [innerHTML]="subitems.info"></p>
+    
+  </div>
+
+</ion-content>

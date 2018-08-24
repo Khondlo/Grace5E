@@ -1,0 +1,47 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-3dtouch": {
+      "PACKAGE_NAME": "com.mychurch.app"
+    },
+    "cordova-plugin-calendar": {
+      "CALENDAR_USAGE_DESCRIPTION": " ",
+      "PACKAGE_NAME": "com.mychurch.app"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.mychurch.app"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "com.mychurch.app"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.mychurch.app"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "com.mychurch.app"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.mychurch.app"
+    },
+    "cordova-plugin-x-socialsharing": {
+      "PACKAGE_NAME": "com.mychurch.app"
+    },
+    "ionic-plugin-keyboard": {
+      "PACKAGE_NAME": "com.mychurch.app"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-compat": {
+      "PACKAGE_NAME": "com.mychurch.app"
+    },
+    "es6-promise-plugin": {
+      "PACKAGE_NAME": "com.mychurch.app"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+page-ministries {
+
+    ion-content {
+        background: #DFDCE3 !important;
+    }
+
+    ion-card {
+        position: relative;
+        text-align: center;  
+    }
+    
+    .titles {
+      position: absolute;
+      top: 70%;
+      font-size: 2.0em;
+      width: 100%;
+      color: #DFDCE3;
+    }
+
+    .border {
+        border-radius: 10px 10px 10px 10px;
+        box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.75);
+    }
+
+}

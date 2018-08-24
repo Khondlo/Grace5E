@@ -1,0 +1,46 @@
+page-branches {
+
+    ion-content {
+        background-color: #3A393B !important;
+    }
+
+    .swiper-pagination-progress .swiper-pagination-progressbar  {
+        background: #F7B634;
+    }
+
+    h1 {
+        color: #DFDCE3;
+    }
+
+    .container {
+        position: relative;
+    }
+
+    .opacity {
+        opacity: 0.4;
+    }
+
+    .branch {
+        position: absolute;
+        bottom: 20%;
+        color: #DFDCE3;
+        font-size: 14px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .service {
+        position: absolute;
+        bottom: 5%;
+        font-family: font-book;
+        color: #DFDCE3;
+        font-size: 9px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .height {
+        margin-top: 4vh;
+    }
+
+}

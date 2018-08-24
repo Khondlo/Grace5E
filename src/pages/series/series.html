@@ -1,0 +1,60 @@
+<ion-header>
+
+  <ion-navbar color="myRed">
+    <ion-title>{{item.title}}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+
+  <img class="image" [src]="item.photo" />
+
+  <div padding>
+  
+  <h4>{{item.title}}</h4>
+
+  <p class="info">{{item.details}}</p>
+
+  <p class="text" [innerHTML]="item.description"></p>
+  
+  </div>
+
+  <div>
+  <ion-slides effect="coverflow" zoom="true" slidesPerView="2">
+      
+    <ion-slide *ngFor="let subitem of item.episode" (tap)="episodes($event, subitem)">
+        
+      <div class="swiper-zoom-container container">
+        <img class="opacity" [src]="subitem.image" (load)="subitem.loaded = true" [hidden]="!subitem.loaded" />
+        <img src="assets/img/512PlaceholderDark.png" [hidden]="subitem.loaded">
+
+        <div class="number">{{subitem.number}}</div>
+
+        <div class="titles">{{subitem.title}}</div>
+
+        <div class="leader">{{subitem.leader}}</div>
+
+        <div class="date">{{subitem.day}}</div>
+
+        <div class="icons">
+          <ion-grid>  
+            <ion-row align-items-start>
+              <ion-col><ion-icon name={{item.icon1}}></ion-icon></ion-col>
+              <ion-col><ion-icon name={{item.icon2}}></ion-icon></ion-col>
+            </ion-row>
+          </ion-grid>
+        </div>
+      </div>
+  
+    </ion-slide>
+
+  </ion-slides>
+  </div>
+
+  <div padding>
+  <p class="info">{{item.length}}</p>
+  </div>
+
+</ion-content>

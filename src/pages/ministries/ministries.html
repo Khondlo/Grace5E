@@ -1,0 +1,18 @@
+<ion-header>
+
+  <ion-navbar color="myRed">
+    <ion-title>{{subitem.title}}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+
+  <ion-card class="border" *ngFor="let subitems of subitem.ministry" (tap)="ministry($event, subitems)">
+    <img [src]="subitems.image" (load)="subitems.loaded = true" [hidden]="!subitems.loaded" />
+    <img src="assets/img/396PlaceHolder.png" [hidden]="subitems.loaded">
+    <div class="titles">{{subitems.title}}</div>
+  </ion-card>
+
+</ion-content>

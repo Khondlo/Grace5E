@@ -1,0 +1,40 @@
+<ion-header>
+
+  <ion-navbar color="myRed">
+    <ion-title>{{subitem.title}}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+
+  <img [src]="subitem.photo" (load)="subitem.loaded = true" [hidden]="!subitem.loaded" />
+  <img src="assets/img/512PlaceHolderDark.png" [hidden]="subitem.loaded">
+    
+<div padding>
+      
+  <h1>{{subitem.heading}}</h1>
+
+  <div>
+    <ion-slides pager paginationType="progress" spaceBetween="10px" zoom="true" slidesPerView="2" class="height">
+          
+      <ion-slide *ngFor="let subitems of subitem.locations" (tap)="locationMap($event, subitems)">
+            
+      <div class="swiper-zoom-container container">
+      <img class="opacity" [src]="subitems.photo" (load)="subitems.loaded = true" [hidden]="!subitems.loaded" />
+      <img class="opacity" src="assets/img/512PlaceHolderDark.png" [hidden]="subitems.loaded">
+    
+      <div class="branch">{{subitems.location}}</div>
+    
+      <div class="service">{{subitems.times}}</div>
+      </div>
+      
+      </ion-slide>
+
+    </ion-slides>
+  </div>
+
+</div>
+
+</ion-content>

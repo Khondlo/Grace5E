@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-navbar color="myRed">
+    <ion-title>
+      Events
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-slides pager effect="coverflow">
+
+    <ion-slide *ngFor="let item of events" (tap)="event($event, item)">
+      
+      <div class="container">
+        <img [src]="item.image" (load)="item.loaded = true" [hidden]="!item.loaded" />
+        <img src="assets/img/800PlaceHolder.png" [hidden]="item.loaded">
+
+        <div class="event">{{item.title}}</div>
+
+        <div class="date">{{item.day}}</div>
+      </div>
+    
+    </ion-slide>
+
+  </ion-slides>
+
+</ion-content>

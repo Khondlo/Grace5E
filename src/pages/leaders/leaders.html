@@ -1,0 +1,37 @@
+<ion-header>
+
+  <ion-navbar color="myRed">
+    <ion-title>Leaders</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+
+  <ion-card class="border" *ngFor="let subitems of subitem.leader">
+        
+    <img [src]="subitems.photo" (load)="subitems.loaded = true" [hidden]="!subitems.loaded" />
+    <img src="assets/img/512PlaceHolderDark.png" [hidden]="subitems.loaded">
+    
+    <ion-card-content>
+          
+      <ion-card-title>
+        {{subitems.name}}
+      </ion-card-title>
+      <ion-row>
+        <ion-col class="branch">
+          {{subitems.branch}}
+        </ion-col>
+        <ion-col col-1>
+          <a href="{{subitems.social_link}}" onclick="window.open(this.href,'_system');return false;">
+            <ion-icon class="iconStyle" name={{subitems.social_icon}}></ion-icon>
+          </a>
+        </ion-col>
+      </ion-row>
+        
+    </ion-card-content>
+      
+  </ion-card>
+
+</ion-content>

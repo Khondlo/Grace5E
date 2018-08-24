@@ -1,0 +1,28 @@
+<ion-header>
+
+  <ion-navbar color="myRed">
+    <ion-title>{{subitem.title}}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+
+  <iframe width="100%" height="315" [src]="subitem.videoURL | videos" frameborder="0" allowfullscreen></iframe>
+
+  <iframe class="player" [src]="subitem.audioURL | videos" width="100%" height="70" frameborder="0" scrolling="no"></iframe>
+
+  <div padding class="style">
+  
+    <h1>{{subitem.title}}</h1>
+
+    <h6>{{subitem.leader}}</h6>
+
+    <p class="date">{{subitem.day}}</p>
+
+    <p [innerHTML]="subitem.info"></p>
+
+  </div>
+
+</ion-content>

@@ -1,0 +1,38 @@
+page-events {
+
+    ion-content {
+        background-color: #DFDCE3 !important;
+    }
+
+    .swiper-pagination-bullet-active {
+        background: #F7B634;
+    }
+
+    .container {
+        position: relative;
+    }
+
+    img {
+        border-radius: 10px;
+    }
+
+    .event {
+        position: absolute;
+        bottom: 12%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 24px;
+        color: #DFDCE3;
+    }
+
+    .date {
+        position: absolute;
+        bottom: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: font-mediumItalic;
+        font-size: 18px;
+        color: #DFDCE3;
+    }
+
+}

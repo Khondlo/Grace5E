@@ -1,0 +1,31 @@
+<ion-header>
+
+  <ion-navbar color="myYellow">
+    <ion-title>{{subitems.location}}</ion-title>
+
+    <ion-buttons end>
+      <button ion-button icon-only color="myDark" (tap)="closeModal()">
+        <ion-icon name="close"></ion-icon>
+      </button>
+    </ion-buttons>
+
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+
+  <!-- <ion-card> -->
+    <sebm-google-map
+      [latitude]="convertStringToNumber(subitems.map_lat)"
+      [longitude]="convertStringToNumber(subitems.map_lng)"
+      [zoom]="convertStringToNumber(subitems.map_zoom)">
+      <sebm-google-map-marker 
+      [latitude]="convertStringToNumber(subitems.map_lat)" 
+      [longitude]="convertStringToNumber(subitems.map_lng)">
+      </sebm-google-map-marker>
+    </sebm-google-map>
+  <!-- </ion-card> -->
+
+</ion-content>

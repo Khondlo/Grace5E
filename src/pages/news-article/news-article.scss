@@ -1,0 +1,30 @@
+page-news-article {
+
+    ion-content {
+        background-color: #3A393B !important;
+    }
+
+    h4 {
+        color: #DFDCE3;
+    }
+
+    .info {
+        color: #DFDCE3;
+        font-family: font-bold;
+        font-size: 14px;
+        margin-top: 1vh;
+    }
+
+    .text {
+        color: #DFDCE3;
+        font-family: font-regular;
+        font-size: 14px;
+        margin-top: -1vh;
+    }
+
+    .share {
+        font-size: 35px;
+        color: #F7B634;
+    }
+
+}

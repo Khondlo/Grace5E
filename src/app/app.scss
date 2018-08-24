@@ -1,0 +1,81 @@
+// http://ionicframework.com/docs/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+
+// Custom font-family used within the App
+@font-face{
+    font-family: font-black;
+    src: url('../assets/fonts/BwSurco-Black.woff2') format('woff2');
+}
+
+@font-face{
+    font-family: font-blackItalic;
+    src: url('../assets/fonts/BwSurco-BlackItalic.woff2') format('woff2');
+}
+
+@font-face{
+    font-family: font-bold;
+    src: url('../assets/fonts/BwSurco-Bold.woff2') format('woff2');
+}
+
+@font-face{
+    font-family: font-boldItalic;
+    src: url('../assets/fonts/BwSurco-BoldItalic.woff2') format('woff2');
+}
+
+@font-face{
+    font-family: font-book;
+    src: url('../assets/fonts/BwSurco-Book.woff2') format('woff2');
+}
+
+@font-face{
+    font-family: font-bookItalic;
+    src: url('../assets/fonts/BwSurco-BookItalic.woff2') format('woff2');
+}
+
+@font-face{
+    font-family: font-light;
+    src: url('../assets/fonts/BwSurco-Light.woff2') format('woff2');
+}
+
+@font-face{
+    font-family: font-lightItalic;
+    src: url('../assets/fonts/BwSurco-LightItalic.woff2') format('woff2');
+}
+
+@font-face{
+    font-family: font-medium;
+    src: url('../assets/fonts/BwSurco-Medium.woff2') format('woff2');
+}
+
+@font-face{
+    font-family: font-mediumItalic;
+    src: url('../assets/fonts/BwSurco-MediumItalic.woff2') format('woff2');
+}
+
+@font-face{
+    font-family: font-regular;
+    src: url('../assets/fonts/BwSurco-Regular.woff2') format('woff2');
+}
+
+@font-face{
+    font-family: font-regularItalic;
+    src: url('../assets/fonts/BwSurco-RegularItalic.woff2') format('woff2');
+}
+
+* {
+    font-family: font-bold;
+}

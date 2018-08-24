@@ -1,0 +1,27 @@
+<ion-header>
+
+  <ion-navbar color="myRed">
+    <ion-title>{{item.title}}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+
+  <img [src]="item.photo" (load)="item.loaded = true" [hidden]="!item.loaded" />
+  <img src="assets/img/512PlaceHolderDark.png" [hidden]="item.loaded">
+   
+  <div padding>
+
+  <h4>{{item.title}}</h4>
+
+  <ion-icon class="share" name="share-alt" (tap)="share()"></ion-icon>
+    
+  <p class="info">{{item.details}}</p>
+    
+  <p class="text" [innerHTML]="item.info"></p>
+
+  </div>
+
+</ion-content>

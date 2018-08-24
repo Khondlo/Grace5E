@@ -1,0 +1,47 @@
+<ion-header>
+
+  <ion-navbar color="myRed">
+    <ion-title>{{subitem.title}}</ion-title>
+  </ion-navbar>
+
+  <ion-toolbar no-border-top color="myRed">
+    <ion-segment color="myDark" [(ngModel)]="music">
+      <ion-segment-button value="videos">
+        {{subitem.video_title}}
+      </ion-segment-button>
+      <ion-segment-button value="audio">
+        {{subitem.audio_title}}
+      </ion-segment-button>
+    </ion-segment>
+  </ion-toolbar>
+
+</ion-header>
+
+
+<ion-content>
+
+<div [ngSwitch]="music">
+
+  <div *ngFor="let subitems of subitem.videos">
+    <ion-card *ngSwitchCase="'videos'" class="border">
+      <iframe width="100%" height="315" [src]="subitems.videoURL | videos" frameborder="0" allowfullscreen></iframe>
+      <ion-card-content>
+        <ion-card-title>{{subitems.title}}</ion-card-title>
+        <p>{{subitems.artist}}</p>
+      </ion-card-content>
+    </ion-card>
+  </div>
+
+  <div *ngFor="let subitems of subitem.audio">
+    <ion-card *ngSwitchCase="'audio'" class="border">
+      <iframe width="100%" height="70" [src]="subitems.audioURL | videos" frameborder="0" allowfullscreen></iframe>
+      <ion-card-content>
+        <ion-card-title>{{subitems.title}}</ion-card-title>
+        <p>{{subitems.artist}}</p>
+      </ion-card-content>
+    </ion-card>
+  </div>
+
+</div>
+
+</ion-content>

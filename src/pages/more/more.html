@@ -1,0 +1,96 @@
+<ion-header>
+
+  <ion-navbar color="myRed">
+    <ion-title>More</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <ion-slides pager effect="coverflow">
+        
+    <ion-slide *ngFor="let subitem of more.about" (tap)="about($event, subitem)">
+      <div class="container">
+        <img [src]="subitem.image" (load)="subitem.loaded = true" [hidden]="!subitem.loaded" />
+        <img src="assets/img/800PlaceHolder.png" [hidden]="subitem.loaded">
+        
+        <div class="titles">{{subitem.title}}</div>
+                
+      </div>
+    </ion-slide>
+        
+    <ion-slide *ngFor="let subitem of more.branches" (tap)="branches($event, subitem)">
+      <div class="container">
+        <img [src]="subitem.image" (load)="subitem.loaded = true" [hidden]="!subitem.loaded" />
+        <img src="assets/img/800PlaceHolder.png" [hidden]="subitem.loaded">
+          
+        <div class="titles">{{subitem.title}}</div>
+                  
+      </div>
+    </ion-slide>
+
+    <ion-slide *ngFor="let subitem of more.leaders" (tap)="leaders($event, subitem)">
+      <div class="container">
+        <img [src]="subitem.image" (load)="subitem.loaded = true" [hidden]="!subitem.loaded" />
+        <img src="assets/img/800PlaceHolder.png" [hidden]="subitem.loaded">
+            
+        <div class="titles">{{subitem.title}}</div>
+                    
+      </div>
+    </ion-slide>
+
+    <ion-slide *ngFor="let subitem of more.ministries" (tap)="ministries($event, subitem)">
+      <div class="container">
+        <img [src]="subitem.image" (load)="subitem.loaded = true" [hidden]="!subitem.loaded" />
+        <img src="assets/img/800PlaceHolder.png" [hidden]="subitem.loaded">
+              
+        <div class="titles">{{subitem.title}}</div>
+                      
+      </div>
+    </ion-slide>
+      
+    <ion-slide *ngFor="let subitem of more.connect" (tap)="connect($event, subitem)">
+      <div class="container">
+        <img [src]="subitem.image" (load)="subitem.loaded = true" [hidden]="!subitem.loaded" />
+        <img src="assets/img/800PlaceHolder.png" [hidden]="subitem.loaded">
+              
+        <div class="titles">{{subitem.title}}</div>
+                      
+      </div>
+    </ion-slide>
+  
+    <ion-slide *ngFor="let subitem of more.tithing" (tap)="tithing($event, subitem)">
+      <div class="container">
+        <img [src]="subitem.image" (load)="subitem.loaded = true" [hidden]="!subitem.loaded" />
+        <img src="assets/img/800PlaceHolder.png" [hidden]="subitem.loaded">
+                
+        <div class="titles">{{subitem.title}}</div>
+                        
+      </div>
+    </ion-slide>
+
+    <ion-slide *ngFor="let subitem of more.music" (tap)="music($event, subitem)">
+      <div class="container">
+        <img [src]="subitem.image" (load)="subitem.loaded = true" [hidden]="!subitem.loaded" />
+        <img src="assets/img/800PlaceHolder.png" [hidden]="subitem.loaded">
+                
+        <div class="titles">{{subitem.title}}</div>
+                        
+      </div>
+    </ion-slide>
+
+    <ion-slide *ngFor="let subitem of more.social" (tap)="social($event, subitem)">
+      <div class="container">
+        <img [src]="subitem.image" (load)="subitem.loaded = true" [hidden]="!subitem.loaded" />
+        <img src="assets/img/800PlaceHolder.png" [hidden]="subitem.loaded">
+                
+        <div class="titles">{{subitem.title}}</div>
+                        
+      </div>
+    </ion-slide>
+
+  </ion-slides>
+
+</ion-content>

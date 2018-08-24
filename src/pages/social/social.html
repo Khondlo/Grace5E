@@ -1,0 +1,36 @@
+<ion-header>
+
+  <ion-navbar color="myRed">
+    <ion-title>{{subitem.title}}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+
+  <img [src]="subitem.photo" (load)="subitem.loaded = true" [hidden]="!subitem.loaded" />
+  <img src="assets/img/512PlaceHolderDark.png" [hidden]="subitem.loaded">
+    
+  <div padding>
+      
+  <h1>{{subitem.subtitle}}</h1>
+
+  </div>
+
+  <div>
+    <ion-slides effect="coverflow" slidesPerView="2">
+          
+      <ion-slide *ngFor="let subitems of subitem.platform">
+        <a href="{{subitems.url}}" onclick="window.open(this.href,'_system');return false;">
+          <img [src]="subitems.icon" (load)="subitems.loaded = true" [hidden]="!subitems.loaded" />
+          <img src="assets/img/512PlaceHolderDark.png" [hidden]="subitems.loaded">
+        </a>
+      </ion-slide>
+      
+    </ion-slides>
+  </div>
+
+
+
+</ion-content>

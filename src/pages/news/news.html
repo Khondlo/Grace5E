@@ -1,0 +1,35 @@
+<ion-header>
+
+  <ion-navbar color="myRed">
+    <ion-title>News</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+
+  <ion-card *ngFor="let item of news" class="border" (tap)="newsArticle($event, item)">
+        
+    <img [src]="item.photo" (load)="item.loaded = true" [hidden]="!item.loaded" />
+    <img src="assets/img/512PlaceHolderDark.png" [hidden]="item.loaded">
+        
+    <ion-card-content>
+          
+      <ion-card-title>
+        {{item.title}}
+      </ion-card-title>
+      <ion-row>
+        <ion-col class="date">
+          {{item.date}}
+        </ion-col>
+        <ion-col col-1>
+          <ion-icon name="document"></ion-icon>
+        </ion-col>
+      </ion-row>
+        
+    </ion-card-content>
+      
+  </ion-card>
+
+</ion-content>

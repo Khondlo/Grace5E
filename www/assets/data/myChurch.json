@@ -1,0 +1,233 @@
+{
+  "sermons" : [ {
+      "title" : "Taking A Leap of Faith",
+      "photo" : "https://randomuser.me/api/portraits/men/1.jpg",
+      "duration" : "10 April - 10 May '17",
+      "icon1" : "videocam",
+      "icon2" : "mic",
+      "details" : "Series info:",
+      "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "length" : "Series duration: 7 weeks.",
+      "episode" : [ {
+        "image" : "http://via.placeholder.com/512x512/000",
+        "number" : "1",
+        "title" : "Getting Ready",
+        "leader" : "Mike Smith",
+        "day" : "10 April '17",
+        "videoURL" : "https://www.youtube.com/embed/ejvo0ZC2H-Y",
+        "audioURL" : "https://www.buzzsprout.com/128873/574437-mychurch-demo?client_source=admin&amp;iframe=true&amp;referrer=https%3A%2F%2Fwww.buzzsprout.com%2Fadmin%2Fpodcasts%2F128873%2Fembed",
+        "info" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      }, {
+        "image" : "http://via.placeholder.com/512x512/000",
+        "number" : "2",
+        "title" : "First Steps",
+        "leader" : "Mike Jones",
+        "day" : "20 April '17",
+        "videoURL" : "https://www.youtube.com/embed/4K5Y6PMz68k",
+        "audioURL" : "https://www.buzzsprout.com/128873/574437-mychurch-demo?client_source=admin&amp;iframe=true&amp;referrer=https%3A%2F%2Fwww.buzzsprout.com%2Fadmin%2Fpodcasts%2F128873%2Fembed",
+        "info" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      } ]
+      }, {
+        "title" : "Your 1st Step",
+        "photo" : "https://randomuser.me/api/portraits/women/80.jpg",
+        "duration" : "10 May - 10 Jun '17",
+        "icon1" : "videocam",
+        "icon2" : "mic",
+        "details" : "Series info:",
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "length" : "Series duration: 7 weeks.",
+      "episode" : [ {
+        "image" : "http://via.placeholder.com/512x512/000",
+        "number" : "1",
+        "title" : "Getting Ready",
+        "leader" : "Mike Smith",
+        "day" : "10 April '17",
+        "videoURL" : "https://www.youtube.com/embed/ejvo0ZC2H-Y",
+        "audioURL" : "https://www.buzzsprout.com/128873/574437-mychurch-demo?client_source=admin&amp;iframe=true&amp;referrer=https%3A%2F%2Fwww.buzzsprout.com%2Fadmin%2Fpodcasts%2F128873%2Fembed",
+        "info" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      }, {
+        "image" : "http://via.placeholder.com/512x512/000",
+        "number" : "2",
+        "title" : "Getting Ready",
+        "leader" : "Mike Smith",
+        "day" : "10 April '17",
+        "videoURL" : "https://www.youtube.com/embed/ejvo0ZC2H-Y",
+        "audioURL" : "https://www.buzzsprout.com/128873/574437-mychurch-demo?client_source=admin&amp;iframe=true&amp;referrer=https%3A%2F%2Fwww.buzzsprout.com%2Fadmin%2Fpodcasts%2F128873%2Fembed",
+        "info" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      } ]
+      } ],
+  "events" : [ {
+    "image" : "http://via.placeholder.com/512x800",
+    "title" : "Family Weekend Celebration",
+    "day" : "10 April 2017",
+    "photo" : "http://via.placeholder.com/512x512/000",
+    "address" : "5 Pybus Rd, Sandton, Johannesburg",
+    "times" : "Sundays, From 08h00 - 11h00",
+    "details" : "Details:",
+    "info" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "RegisterURL" : "https://www.google.com",
+    "eventLocation" : "Midrand",
+    "notes" : "Awesome Event to Attend",
+    "startDate" : "2017-11-10T10:20:00+02:00",
+    "endDate" : "2017-11-10T18:30:00+02:00",
+    "map_lat" : "-26.111324",
+    "map_lng" : "28.055716",
+    "map_zoom" : "16"
+  }, {
+    "image" : "http://via.placeholder.com/512x800",
+    "title" : "Easter Weekend Celebration",
+    "day" : "10 April 2017",
+    "photo" : "http://via.placeholder.com/512x512/000",
+    "address" : "4 Pybus Rd, Sandton, Johannesburg",
+    "times" : "Sundays, From 08h00 - 11h00",
+    "details" : "Details:",
+    "info" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "RegisterURL" : "https://www.google.com",
+    "eventLocation" : "Midrand",
+    "notes" : "Awesome Event to Attend",
+    "startDate" : "2017-11-10T10:20:00+02:00",
+    "endDate" : "2017-11-10T18:30:00+02:00",
+    "map_lat" : "-26.111324",
+    "map_lng" : "28.055716",
+    "map_zoom" : "30"
+   } ],
+  "bible" : [ {
+    "BibleURL" : "https://www.bible.com/bible"
+  } ],
+  "news" : [ {
+    "photo" : "http://via.placeholder.com/512x512",
+    "title" : "Taking Your Leap of Faith",
+    "date" : "10 April 2017",
+    "social" : "https://www.instagram.com/touchhdonline/",
+    "details" : "Details:",
+    "info" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "shareMessage" : "Your News Message",
+    "shareSubject" : "News Title",
+    "shareImage" : "http://via.placeholder.com/512x512",
+    "shareLink" : "https://www.google.com/"
+  }, {
+    "photo" : "http://via.placeholder.com/512x512/000",
+    "title" : "Easter Weekend Celebration",
+    "date" : "10 April 2017",
+    "social" : "https://www.instagram.com/touchhdonline/",
+    "details" : "Details:",
+    "info" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "shareMessage" : "Your News Message",
+    "shareSubject" : "News Title",
+    "shareImage" : "http://via.placeholder.com/512x512",
+    "shareLink" : "https://www.google.com/"
+   } ],
+  "more" : {
+    "about" : [ {
+      "image" : "http://via.placeholder.com/512x800",
+      "title" : "about us.",
+      "photo" : "http://via.placeholder.com/512x512",
+      "heading" : "who we are.",
+      "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    } ],
+    "branches" : [ {
+      "image" : "http://via.placeholder.com/512x800/000",
+      "title" : "our branches.",
+      "photo" : "http://via.placeholder.com/512x512",
+      "heading" : "where we meet.",
+      "locations" : [ {
+        "photo" : "http://via.placeholder.com/512x512",
+        "location" : "New York",
+        "times" : "Sundays: 09h00",
+        "map_lat" : "-26.111324",
+        "map_lng" : "28.055716",
+        "map_zoom" : "16"
+        }, {
+        "photo" : "http://via.placeholder.com/512x512",
+        "location" : "Cape Town",
+        "times" : "Sundays: 10h00",
+        "map_lat" : "-26.111324",
+        "map_lng" : "28.055716",
+        "map_zoom" : "16"  
+      } ]
+    } ],
+    "leaders" : [ {
+      "image" : "http://via.placeholder.com/512x800",
+      "title" : "our leaders.",
+      "leader" : [ {
+        "photo" : "http://via.placeholder.com/512x512",
+        "name" : "Pastor Jones",
+        "branch" : "Real Madrid Branch.",
+        "social_icon" : "logo-twitter",
+        "social_link" : "https://twitter.com"
+        }, {
+        "photo" : "http://via.placeholder.com/512x512",
+        "name" : "Pastor Mase",
+        "branch" : "Cape Town Branch.",
+        "social_icon" : "logo-twitter",
+        "social_link" : "https://twitter.com"
+      } ]
+    } ],
+    "ministries" : [ {
+      "image" : "http://via.placeholder.com/512x800/000",
+      "title" : "our ministries.",
+      "ministry" : [ {
+        "image" : "http://via.placeholder.com/592x396/000",
+        "title" : "Mens Ministry",
+        "photo" : "http://via.placeholder.com/512x512",
+        "info" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        }, {
+        "image" : "http://via.placeholder.com/592x396",
+        "title" : "Womens Ministry",
+        "photo" : "http://via.placeholder.com/512x512",
+        "info" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      } ]
+    } ],
+    "connect" : [ {
+      "image" : "http://via.placeholder.com/512x800",
+      "title" : "connect with us.",
+      "photo" : "http://via.placeholder.com/512x512",
+      "heading" : "connect with us.",
+      "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    } ],
+    "tithing" : [ {
+      "image" : "http://via.placeholder.com/512x800/000",
+      "title" : "giving.",
+      "photo" : "http://via.placeholder.com/512x512",
+      "heading" : "about giving.",
+      "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    } ],
+    "music" : [ {
+      "image" : "http://via.placeholder.com/512x800",
+      "title" : "inspirational music.",
+      "video_title" : "Videos",
+      "audio_title" : "Audio",
+      "videos" : [ {
+        "videoURL" : "https://www.youtube.com/embed/ejvo0ZC2H-Y",
+        "title" : "Video Title 01",
+        "artist" : "Singer 01"
+      }, {
+        "videoURL" : "https://www.youtube.com/embed/ejvo0ZC2H-Y",
+        "title" : "Video Title 02",
+        "artist" : "Singer 02"
+        } ],
+        "audio" : [ {
+          "audioURL" : "https://www.buzzsprout.com/128873/574437-mychurch-demo?client_source=admin&amp;iframe=true&amp;referrer=https%3A%2F%2Fwww.buzzsprout.com%2Fadmin%2Fpodcasts%2F128873%2Fembed",
+          "title" : "Audio Title 01",
+          "artist" : "Singer 01"
+        }, {
+          "audioURL" : "https://www.buzzsprout.com/128873/574437-mychurch-demo?client_source=admin&amp;iframe=true&amp;referrer=https%3A%2F%2Fwww.buzzsprout.com%2Fadmin%2Fpodcasts%2F128873%2Fembed",
+          "title" : "Audio Title 02",
+          "artist" : "Singer 01"
+          } ]
+    } ],
+    "social" : [ {
+      "image" : "http://via.placeholder.com/512x800/000",
+      "title" : "get social.",
+      "photo" : "http://via.placeholder.com/512x512",
+      "subtitle" : "get social with us.",
+      "platform" : [ {
+        "icon" : "http://via.placeholder.com/512x512/000",
+        "url" : "https://www.youtube.com/embed/ejvo0ZC2H-Y"
+      }, {
+        "icon" : "http://via.placeholder.com/512x512",
+        "url" : "https://www.youtube.com/embed/ejvo0ZC2H-Y"
+        } ]
+    } ]
+  }
+}
